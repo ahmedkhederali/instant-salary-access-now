@@ -1,4 +1,3 @@
-
 import { 
   Card, 
   CardContent 
@@ -61,7 +60,11 @@ const ExperienceSection = () => {
           
           <div className="space-y-12">
             {experiences.map((exp, index) => (
-              <div key={index} className={`relative animate-fadeIn ${index % 2 === 0 ? 'md:pr-12 md:text-right md:ml-0 md:mr-auto' : 'md:pl-12 md:ml-auto md:mr-0'} md:w-1/2 w-full`}>
+              <div key={index} className={`relative animate-fadeIn ${
+                exp.title === 'Front-End Developer' || exp.title === 'Freelance Web Developer' 
+                  ? 'md:text-left md:pr-12 md:ml-0' 
+                  : 'md:pr-12 md:text-right md:ml-0 md:mr-auto'
+              } md:w-1/2 w-full`}>
                 <div className="hidden md:block absolute top-6 -right-3.5 w-7 h-7 rounded-full bg-primary border-4 border-white shadow-md z-10"></div>
                 
                 <Card className={`relative ${index % 2 === 0 ? 'md:mr-0' : 'md:ml-0'}`}>
