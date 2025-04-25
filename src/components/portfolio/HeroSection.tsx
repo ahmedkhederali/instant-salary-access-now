@@ -35,7 +35,7 @@ const HeroSection = () => {
           <div className="md:w-2/5 flex justify-center animate-fadeInRight">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20">
               <img 
-                src="/path/to/your/personal/image.jpg" 
+                src="/lovable-uploads/f8e41af9-cc3d-44ba-84a0-faf9ea88d81f.png" 
                 alt="Ahmed Ali" 
                 className="w-full h-full object-cover"
               />
