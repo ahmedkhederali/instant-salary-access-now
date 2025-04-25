@@ -1,7 +1,7 @@
 
 import { Progress } from "@/components/ui/progress";
 import { 
-  React as ReactIcon, 
+  Workflow as ReactIcon, 
   Database, 
   Server,
   Code
